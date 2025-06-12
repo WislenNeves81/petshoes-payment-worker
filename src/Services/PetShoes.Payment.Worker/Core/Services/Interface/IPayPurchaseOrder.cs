@@ -2,6 +2,6 @@
 {
     public interface IPayPurchaseOrder
     {
-        Task<bool> PayPurchaseOrderWithCreditCardAsync();
+        Task<bool> PayPurchaseOrderWithCreditCardAsync(string paymentType);
     }
 }
